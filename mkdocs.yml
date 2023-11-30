@@ -1,10 +1,13 @@
 site_name: ReadTheDocs Documentation
 
 nav:
-  - Home: 'index.md'
+  - Introduction: 'index.md'
   - First steps: 'firstSteps.md'
   - Create Documentation: 'createDocumentation.md'
   - Navigation Menu: 'nav.md'
   - Upload Documentation: 'uploadDocumentation.md'
 
 theme: readthedocs
+
+
+

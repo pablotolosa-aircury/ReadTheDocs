@@ -2,46 +2,17 @@
 
 We have to go to he mkdocs.yml file to create the navigation menu.
 
-You must follow this structure: 
 
-    ..toctree::
-        :caption: (Section Title)
+You must follow this structure:
 
-        example    
-
-"example" is the name of your RST file that you want to put on that section.
+    nav:
+        - (name of the section) : (name of your document) 
 
 Here is how the menu of this documentation is done:
 
-    ..toctree::
-        :caption: Home
-
-        index
-
-    ..toctree::
-        :caption: First steps
-    
-        firstSteps
-
-    ..toctree::
-        :caption: Create Documentation
-
-        createDocumentation
-
-    ..toctree::
-        :caption: Navigation Menu
-
-        nav
-
-    ..totctree::
-        :caption: Upload Documentation
-
-        uploadDocumentation
-
-
-    
-
-
-
-
-
+    nav:
+    - Introduction: 'index.md'
+    - First steps: 'firstSteps.md'
+    - Create Documentation: 'createDocumentation.md'
+    - Navigation Menu: 'nav.md'
+    - Upload Documentation: 'uploadDocumentation.md'
