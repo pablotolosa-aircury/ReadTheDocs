@@ -2,7 +2,7 @@
 
 The first thing you must to do is to install a recent version of  Python and the Python package manager, pip.
 
-You can check if you already have these installed with this command line:
+You can check if you already have these installed with this command lines:
 
     python --version
     pip --version
